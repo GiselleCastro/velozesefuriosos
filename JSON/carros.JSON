@@ -1,0 +1,298 @@
+[
+  {
+    "manufracturer": "General Motors",
+    "make": "Chevrolet",
+    "model": "Corvette Grand Sport Sting Ray",
+    "production_year": "1962",
+    "status": "Discontinued",
+    "photo": "1"
+  },
+  {
+    "manufracturer": "General Motors",
+    "make": "Chevrolet",
+    "model": "Camaro SS",
+    "production_year": "1967",
+    "status": "Discontinued",
+    "photo": "3"
+  },
+  {
+    "manufracturer": "General Motors",
+    "make": "Chevrolet",
+    "model": "Camaro Z28",
+    "production_year": "1967",
+    "status": "Discontinued",
+    "photo": "4"
+  },
+  {
+    "manufracturer": "Ford Motor Corporation",
+    "make": "Ford Mustang",
+    "model": "Fastback",
+    "production_year": "1967",
+    "status": "In Production",
+    "photo": "5"
+  },
+  {
+    "manufracturer": "Speedkore",
+    "make": "Dodge",
+    "model": "Charger Hellacious",
+    "production_year": "1968",
+    "status": "Active",
+    "photo": "6"
+  },
+  {
+    "manufracturer": "Chrysler",
+    "make": "Dodge",
+    "model": "Charger R/T",
+    "production_year": "1968",
+    "status": "Discontinued",
+    "photo": "7"
+  },
+  {
+    "manufracturer": "Ford",
+    "make": "Ford Mustang",
+    "model": "Fastback",
+    "production_year": "1969",
+    "status": "In production",
+    "photo": "8"
+  },
+  {
+    "manufracturer": "General Motors",
+    "make": "Yenko",
+    "model": "Camaro",
+    "production_year": "1969",
+    "status": "Discontinued",
+    "photo": "9"
+  },
+  {
+    "manufracturer": "General Motors",
+    "make": "Chevrolet",
+    "model": "Chevelle SS 454",
+    "production_year": "1970",
+    "status": "Discontinued",
+    "photo": "10"
+  },
+  {
+    "manufracturer": "General Motors",
+    "make": "Chevrolet",
+    "model": "Monte Carlo First generation",
+    "production_year": "1970",
+    "status": "Discontinued",
+    "photo": "11"
+  },
+  {
+    "manufracturer": "Dodge",
+    "make": "Dodge",
+    "model": "Challenger R/T",
+    "production_year": "1970",
+    "status": "Active",
+    "photo": "12"
+  },
+  {
+    "manufracturer": "Chrysler",
+    "make": "Dodge",
+    "model": "Charger R/T",
+    "production_year": "1970",
+    "status": "Discontinued",
+    "photo": "13"
+  },
+  {
+    "manufracturer": "Chrysler Corporation",
+    "make": "Plymouth",
+    "model": "Barracuda",
+    "production_year": "1964",
+    "status": "Discontinued",
+    "photo": "14"
+  },
+  {
+    "manufracturer": "General Motors",
+    "make": "Chevrolet",
+    "model": "Monte Carlo",
+    "production_year": "1971",
+    "status": "Discontinued",
+    "photo": "15"
+  },
+  {
+    "manufracturer": "Prince Motor Company",
+    "make": "Nissan",
+    "model": "Skyline GT-R (KPGC10)",
+    "production_year": "1971",
+    "status": "Discontinued",
+    "photo": "16"
+  },
+  {
+    "manufracturer": "General Motors",
+    "make": "Buick",
+    "model": "Regal (Grand National)",
+    "production_year": "1987",
+    "status": "Discontinued",
+    "photo": "17"
+  },
+  {
+    "manufracturer": "Honda/Acura",
+    "make": "Honda",
+    "model": "Civic",
+    "production_year": "1992",
+    "status": "Discontinued",
+    "photo": "18"
+  },
+  {
+    "manufracturer": "Fiat Chrysler Automobiles",
+    "make": "Dodge",
+    "model": "Charger PPV",
+    "production_year": "2006",
+    "status": "Discontinued",
+    "photo": "19"
+  },
+  {
+    "manufracturer": "Fuji Heavy Industries",
+    "make": "Subaru",
+    "model": "Impreza WRX STi GH",
+    "production_year": "2012",
+    "status": "In Production",
+    "photo": "20"
+  },
+  {
+    "manufracturer": "Fiat Chrysler Automobiles previously Chrysler",
+    "make": "Dodge",
+    "model": "Charger SRT-8",
+    "production_year": "2011",
+    "status": "In production",
+    "photo": "21"
+  },
+  {
+    "manufracturer": "Ford Motor Cars",
+    "make": "Ford",
+    "model": "Mustang",
+    "production_year": "2015",
+    "status": "Current",
+    "photo": "22"
+  },
+  {
+    "manufracturer": "Jaguar Land Rover",
+    "make": "Jaguar",
+    "model": "XE SV Project 8",
+    "production_year": "2019",
+    "status": "Current",
+    "photo": "23"
+  },
+  {
+    "manufracturer": "Honda",
+    "make": "Acura",
+    "model": "Integra",
+    "production_year": "1986",
+    "status": "Discontinued",
+    "photo": "24"
+  },
+  {
+    "manufracturer": "Chrysler",
+    "make": "Dodge",
+    "model": "Charger Daytona",
+    "production_year": "1969",
+    "status": "Discontinued",
+    "photo": "26"
+  },
+  {
+    "manufracturer": "Mitsubishi Motors",
+    "make": "Chrysler",
+    "model": "Dodge Stealth",
+    "production_year": "1991",
+    "status": "Discontinued",
+    "photo": "27"
+  },
+  {
+    "manufracturer": "Ferrari SPA",
+    "make": "Ferrari",
+    "model": "F355 Spider",
+    "production_year": "1995",
+    "status": "Discontinued",
+    "photo": "28"
+  },
+  {
+    "manufracturer": "Fuji Heavy Industries",
+    "make": "Subaru",
+    "model": "WRX STI",
+    "production_year": "2015",
+    "status": "In Production",
+    "photo": "29"
+  },
+  {
+    "manufracturer": "Ford Motorworks",
+    "make": "Ford",
+    "model": "Escort MK I RS1600",
+    "production_year": "1968",
+    "status": "Discountinued",
+    "photo": "30"
+  },
+  {
+    "manufracturer": "Carrozzeria Touring",
+    "make": "Jensen",
+    "model": "Interceptor",
+    "production_year": "1971",
+    "status": "Discontinued",
+    "photo": "31"
+  },
+  {
+    "manufracturer": "Nissan",
+    "make": "Nissan Silva",
+    "model": "S15",
+    "production_year": "1999",
+    "status": "Discontinued",
+    "photo": "32"
+  },
+  {
+    "manufracturer": "Pontiac",
+    "make": "Pontiac",
+    "model": "Fiero",
+    "production_year": "1984",
+    "status": "Destroyed",
+    "photo": "33"
+  },
+  {
+    "manufracturer": "General Motors",
+    "make": "Chevrolet",
+    "model": "Corvette Grand Sport Sting Ray",
+    "production_year": "1962",
+    "status": "Discontinued",
+    "photo": "34"
+  },
+  {
+    "manufracturer": "General Motors",
+    "make": "Chevrolet",
+    "model": "Camaro SS",
+    "production_year": "1967",
+    "status": "Discontinued",
+    "photo": "36"
+  },
+  {
+    "manufracturer": "Dodge",
+    "make": "Dodge",
+    "model": "Challenger R/T",
+    "production_year": "1970",
+    "status": "Active",
+    "photo": "37"
+  },
+  {
+    "manufracturer": "Prince Motor Company",
+    "make": "Nissan",
+    "model": "Skyline GT-R (KPGC10)",
+    "production_year": "1971",
+    "status": "Discontinued",
+    "photo": "38"
+  },
+  {
+    "manufracturer": "Toyota",
+    "make": "Toyota",
+    "model": "Supra Turbo MK IV",
+    "production_year": "1993",
+    "status": "Discontinued",
+    "photo": "39"
+  },
+  {
+    "manufracturer": "Mitsubishi Motors",
+    "make": "Mitsubishi",
+    "model": "Eclipse Spyder",
+    "production_year": "2003",
+    "status": "Discontinued",
+    "photo": "40"
+  }
+]
