@@ -2,8 +2,8 @@ import Carro from "../model/carro.model.js"
 
 export default class CarroController {
   static async insertCarro (req, res) {
-    const { manufracturer, make, model, production_year, status, photo } = req.body
-
+    const { manufracturer, make, model, production_year, status } = req.body
+    const photo = `${req.file.filename}.${req.file.originalname.split('.').at(-1)}`
     try {
       const novoCarro = await Carro.create ({
         manufracturer,
@@ -15,7 +15,7 @@ export default class CarroController {
       })
       res.status(200).json(novoCarro)
     } catch (error) {
-
+      res.status(400).json(error)
     }
   }
 
@@ -35,16 +35,17 @@ export default class CarroController {
       const listaCarros = await Carro.findAll()
       res.status(200).json(listaCarros)
     } catch (error) {
-      console.log('w')
+      res.status(400).json({error})
     }
   }
 
   static async deleteCarro (req, res) {
     const { id } = req.params
     try {
-      await Carro.destroy()
+      await Carro.destroy({ where: { id } })
+      res.status(200).json({ mensagem: "Excluído com sucesso!"})
     } catch (error) {
-
+      res.status(400).json( error )
     }
   }
 

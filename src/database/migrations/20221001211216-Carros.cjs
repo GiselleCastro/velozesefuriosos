@@ -10,15 +10,15 @@ module.exports = {
         unique: true,
       },
       manufracturer: {
-        type: Sequelize.STRING(30),
+        type: Sequelize.STRING(50),
         allowNull: false
       },
       make: {
-        type: Sequelize.STRING(30),
+        type: Sequelize.STRING(50),
         allowNull: false,
       },
       model: {
-        type: Sequelize.STRING(30),
+        type: Sequelize.STRING(50),
         allowNull: false,
       },
       production_year:{
@@ -30,7 +30,7 @@ module.exports = {
         }
       },
       status: {
-        type: Sequelize.STRING(20),
+        type: Sequelize.STRING(50),
         allowNull: false,
       },
       photo: {

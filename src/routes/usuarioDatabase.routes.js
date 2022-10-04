@@ -5,14 +5,14 @@ import { getLogar, postLogar } from "../middleware/signin.js"
 export const routeUsuario = Router()
 
 routeUsuario.route("/")
-    .get(
-        ...getLogar
-    )
-    .post(
-        ...postLogar
-    )
+  .get(
+    ...getLogar
+  )
+  .post(
+    ...postLogar
+  )
 
 routeUsuario.route("/sair")
-    .get(
-        sair
-    )
+  .get(
+    sair
+  )

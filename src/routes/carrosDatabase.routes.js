@@ -1,10 +1,15 @@
 import { Router } from "express"
 import { permitir } from "../middleware/permission.js"
 import CarroController from "../controllers/CarroPage.js"
-import multer from "multer"
 import { resolve } from "path"
+import multer from "multer"
 
-const upload = multer({dest: "../uploads"})
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => cb(null, resolve("uploads")),
+  filename: (req, file, cb) => cb(null,`${Date.now()}.${file.originalname.split('.').at(-1)}`)
+})
+
+const upload = multer({ storage }).single('photo')
 
 export const routeCarros = Router()
 
@@ -14,7 +19,7 @@ routeCarros.route(`/((carros?)|(cars?))`)
     CarroController.getAllCarro
   )
   .post(
-    upload.single("avatar"),
     permitir,
-    //CarroController.insertCarro
+    upload,
+    CarroController.insertCarro
   )
