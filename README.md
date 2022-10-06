@@ -16,7 +16,9 @@
 - RETIRE A EXTENSÃO .example DO ARQUIVO .env.example
 - EXECUTE NO TERMINAL OS SEGUINTES COMANDOS
 
-  > npm init
+  > npm i
+
+  > npx sequelize-cli init
 
   > npx sequelize db:migrate
 

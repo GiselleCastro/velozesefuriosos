@@ -5,6 +5,5 @@ node_modules
 .env
 package-lock.json
 .eslintrc.cjs
-.sequelizerc
 .editorconfig
 nodemon.json
