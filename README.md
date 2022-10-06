@@ -47,8 +47,8 @@
       - make: vachar(50)
       - model: vachar(50)
       - production_year: inteiro
-      - status: vachar
-      - photo: vachar
+      - status: vachar(50)
+      - photo: vachar(100)
   - NO ATO DE ENVIAR, A IMAGEM É REDIRECIONADA PARA A PASTA UPLOADS E APENAS O NOME DA MESMA CONSTA NO BANCO DE DADOS.
 
 - MATERIAL SUPLEMENTAR:
