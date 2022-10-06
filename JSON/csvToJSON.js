@@ -16,7 +16,6 @@ function csvToJson (fileCSV, nameJSON, line, row) {
   })
   fs.writeFileSync(nameJSON, JSON.stringify(dadosJSONString))
 }
-
 const fileCSV = path.resolve(".","carros.csv")
 const nameJSON = "carros.JSON"
 const line = /\r\n/
