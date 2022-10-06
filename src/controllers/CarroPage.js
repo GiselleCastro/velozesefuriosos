@@ -27,7 +27,7 @@ export default class CarroController {
     const { model } = req.params
     try {
       const carroModel = await Carro.findAll( { where: { model:  { [Op.substring] : model } } } )
-      if( !carroModel.length ) return res.status(204).json( { mensagem: "Carro de modelo inexistente." } )
+      if( !carroModel.length ) return res.status(200).json( { mensagem: "Carro de modelo inexistente." } )
       return res.status(200).json( carroModel )
     } catch (error) {
       return res.status(500).json( error )
@@ -40,7 +40,7 @@ export default class CarroController {
     if ( !validate.test(id) ) return res.status(400).json( { mensagem: "Formato de ID incorreto." } )
     try {
       const carroID = await Carro.findByPk(id)
-      if(!carroID) return res.status(204).json( { mensagem: "Carro de ID inexistente." } )
+      if(!carroID) return res.status(200).json( { mensagem: "Carro de ID inexistente." } )
       return res.status(200).json(carroID)
     } catch (error) {
       return res.status(500).json( error )
@@ -50,7 +50,7 @@ export default class CarroController {
   static async getAllCarro (req, res) {
     try {
       const listaCarros = await Carro.findAll()
-      if (!listaCarros.length) return res.status(204).json( { mensagem: "Não há carros registrados no sistema." } )
+      if (!listaCarros.length) return res.status(200).json( { mensagem: "Não há carros registrados no sistema." } )
       return res.status(200).json( listaCarros )
     } catch (error) {
       return res.status(500).json( error )
@@ -61,7 +61,7 @@ export default class CarroController {
     const { id } = req.params
     const validate = new RegExp(/^[{]?[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}[}]?$/)
     if ( !validate.test(id) ) return res.status(400).json( { mensagem: "Formato de ID incorreto." } )
-    if ( ! await Carro.findByPk(id) ) return res.status(204).json( { mensagem: "Carro inexistente no banco de dados!"} )
+    if ( ! await Carro.findByPk(id) ) return res.status(200).json( { mensagem: "Carro inexistente no banco de dados!"} )
     try {
       await Carro.destroy( { where: { id } } )
       res.status(200).json ( { mensagem: "Excluído com sucesso!"} )
@@ -77,7 +77,7 @@ export default class CarroController {
     const validate = new RegExp(/^[{]?[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}[}]?$/)
     if (!validate.test(id)) return res.status(400).json( { mensagem: "Formato de ID incorreto." } )
     try {
-      if(! await Carro.findByPk(id)) return res.status(204).json( { mensagem: "Carro de ID inexistente." } )
+      if(! await Carro.findByPk(id)) return res.status(200).json( { mensagem: "Carro de ID inexistente." } )
       const photoDeletar = await ( await Carro.findByPk(id) ).getDataValue('photo')
       await Carro.update(req.body, { where: { id } } )
       if (req.file) fs.unlinkSync( resolve("uploads", photoDeletar) )
