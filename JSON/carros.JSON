@@ -1,6 +1,6 @@
 [
     {
-    "manufracturer": "General Motors",
+    "manufacturer": "General Motors",
     "make": "Chevrolet",
     "model": "Corvette Grand Sport Sting Ray",
     "production_year": "1962",
@@ -8,7 +8,7 @@
     "photo": "1"
   },
   {
-    "manufracturer": "General Motors",
+    "manufacturer": "General Motors",
     "make": "Chevrolet",
     "model": "Camaro SS",
     "production_year": "1967",
@@ -16,7 +16,7 @@
     "photo": "3"
   },
   {
-    "manufracturer": "General Motors",
+    "manufacturer": "General Motors",
     "make": "Chevrolet",
     "model": "Camaro Z28",
     "production_year": "1967",
@@ -24,7 +24,7 @@
     "photo": "4"
   },
   {
-    "manufracturer": "Ford Motor Corporation",
+    "manufacturer": "Ford Motor Corporation",
     "make": "Ford Mustang",
     "model": "Fastback",
     "production_year": "1967",
@@ -32,7 +32,7 @@
     "photo": "5"
   },
   {
-    "manufracturer": "Speedkore",
+    "manufacturer": "Speedkore",
     "make": "Dodge",
     "model": "Charger Hellacious",
     "production_year": "1968",
@@ -40,7 +40,7 @@
     "photo": "6"
   },
   {
-    "manufracturer": "Chrysler",
+    "manufacturer": "Chrysler",
     "make": "Dodge",
     "model": "Charger R/T",
     "production_year": "1968",
@@ -48,7 +48,7 @@
     "photo": "7"
   },
   {
-    "manufracturer": "Ford",
+    "manufacturer": "Ford",
     "make": "Ford Mustang",
     "model": "Fastback",
     "production_year": "1969",
@@ -56,7 +56,7 @@
     "photo": "8"
   },
   {
-    "manufracturer": "General Motors",
+    "manufacturer": "General Motors",
     "make": "Yenko",
     "model": "Camaro",
     "production_year": "1969",
@@ -64,7 +64,7 @@
     "photo": "9"
   },
   {
-    "manufracturer": "General Motors",
+    "manufacturer": "General Motors",
     "make": "Chevrolet",
     "model": "Chevelle SS 454",
     "production_year": "1970",
@@ -72,7 +72,7 @@
     "photo": "10"
   },
   {
-    "manufracturer": "General Motors",
+    "manufacturer": "General Motors",
     "make": "Chevrolet",
     "model": "Monte Carlo First generation",
     "production_year": "1970",
@@ -80,7 +80,7 @@
     "photo": "11"
   },
   {
-    "manufracturer": "Dodge",
+    "manufacturer": "Dodge",
     "make": "Dodge",
     "model": "Challenger R/T",
     "production_year": "1970",
@@ -88,7 +88,7 @@
     "photo": "12"
   },
   {
-    "manufracturer": "Chrysler",
+    "manufacturer": "Chrysler",
     "make": "Dodge",
     "model": "Charger R/T",
     "production_year": "1970",
@@ -96,7 +96,7 @@
     "photo": "13"
   },
   {
-    "manufracturer": "Chrysler Corporation",
+    "manufacturer": "Chrysler Corporation",
     "make": "Plymouth",
     "model": "Barracuda",
     "production_year": "1964",
@@ -104,7 +104,7 @@
     "photo": "14"
   },
   {
-    "manufracturer": "General Motors",
+    "manufacturer": "General Motors",
     "make": "Chevrolet",
     "model": "Monte Carlo",
     "production_year": "1971",
@@ -112,7 +112,7 @@
     "photo": "15"
   },
   {
-    "manufracturer": "Prince Motor Company",
+    "manufacturer": "Prince Motor Company",
     "make": "Nissan",
     "model": "Skyline GT-R (KPGC10)",
     "production_year": "1971",
@@ -120,7 +120,7 @@
     "photo": "16"
   },
   {
-    "manufracturer": "General Motors",
+    "manufacturer": "General Motors",
     "make": "Buick",
     "model": "Regal (Grand National)",
     "production_year": "1987",
@@ -128,7 +128,7 @@
     "photo": "17"
   },
   {
-    "manufracturer": "Honda/Acura",
+    "manufacturer": "Honda/Acura",
     "make": "Honda",
     "model": "Civic",
     "production_year": "1992",
@@ -136,7 +136,7 @@
     "photo": "18"
   },
   {
-    "manufracturer": "Fiat Chrysler Automobiles",
+    "manufacturer": "Fiat Chrysler Automobiles",
     "make": "Dodge",
     "model": "Charger PPV",
     "production_year": "2006",
@@ -144,7 +144,7 @@
     "photo": "19"
   },
   {
-    "manufracturer": "Fuji Heavy Industries",
+    "manufacturer": "Fuji Heavy Industries",
     "make": "Subaru",
     "model": "Impreza WRX STi GH",
     "production_year": "2012",
@@ -152,7 +152,7 @@
     "photo": "20"
   },
   {
-    "manufracturer": "Fiat Chrysler Automobiles previously Chrysler",
+    "manufacturer": "Fiat Chrysler Automobiles previously Chrysler",
     "make": "Dodge",
     "model": "Charger SRT-8",
     "production_year": "2011",
@@ -160,7 +160,7 @@
     "photo": "21"
   },
   {
-    "manufracturer": "Ford Motor Cars",
+    "manufacturer": "Ford Motor Cars",
     "make": "Ford",
     "model": "Mustang",
     "production_year": "2015",
@@ -168,7 +168,7 @@
     "photo": "22"
   },
   {
-    "manufracturer": "Jaguar Land Rover",
+    "manufacturer": "Jaguar Land Rover",
     "make": "Jaguar",
     "model": "XE SV Project 8",
     "production_year": "2019",
@@ -176,7 +176,7 @@
     "photo": "23"
   },
   {
-    "manufracturer": "Honda",
+    "manufacturer": "Honda",
     "make": "Acura",
     "model": "Integra",
     "production_year": "1986",
@@ -184,7 +184,7 @@
     "photo": "24"
   },
   {
-    "manufracturer": "Chrysler",
+    "manufacturer": "Chrysler",
     "make": "Dodge",
     "model": "Charger Daytona",
     "production_year": "1969",
@@ -192,7 +192,7 @@
     "photo": "26"
   },
   {
-    "manufracturer": "Mitsubishi Motors",
+    "manufacturer": "Mitsubishi Motors",
     "make": "Chrysler",
     "model": "Dodge Stealth",
     "production_year": "1991",
@@ -200,7 +200,7 @@
     "photo": "27"
   },
   {
-    "manufracturer": "Ferrari SPA",
+    "manufacturer": "Ferrari SPA",
     "make": "Ferrari",
     "model": "F355 Spider",
     "production_year": "1995",
@@ -208,7 +208,7 @@
     "photo": "28"
   },
   {
-    "manufracturer": "Fuji Heavy Industries",
+    "manufacturer": "Fuji Heavy Industries",
     "make": "Subaru",
     "model": "WRX STI",
     "production_year": "2015",
@@ -216,7 +216,7 @@
     "photo": "29"
   },
   {
-    "manufracturer": "Ford Motorworks",
+    "manufacturer": "Ford Motorworks",
     "make": "Ford",
     "model": "Escort MK I RS1600",
     "production_year": "1968",
@@ -224,7 +224,7 @@
     "photo": "30"
   },
   {
-    "manufracturer": "Carrozzeria Touring",
+    "manufacturer": "Carrozzeria Touring",
     "make": "Jensen",
     "model": "Interceptor",
     "production_year": "1971",
@@ -232,7 +232,7 @@
     "photo": "31"
   },
   {
-    "manufracturer": "Nissan",
+    "manufacturer": "Nissan",
     "make": "Nissan Silva",
     "model": "S15",
     "production_year": "1999",
@@ -240,7 +240,7 @@
     "photo": "32"
   },
   {
-    "manufracturer": "Pontiac",
+    "manufacturer": "Pontiac",
     "make": "Pontiac",
     "model": "Fiero",
     "production_year": "1984",
@@ -248,7 +248,7 @@
     "photo": "33"
   },
   {
-    "manufracturer": "General Motors",
+    "manufacturer": "General Motors",
     "make": "Chevrolet",
     "model": "Corvette Grand Sport Sting Ray",
     "production_year": "1962",
@@ -256,7 +256,7 @@
     "photo": "34"
   },
   {
-    "manufracturer": "General Motors",
+    "manufacturer": "General Motors",
     "make": "Chevrolet",
     "model": "Camaro SS",
     "production_year": "1967",
@@ -264,7 +264,7 @@
     "photo": "36"
   },
   {
-    "manufracturer": "Dodge",
+    "manufacturer": "Dodge",
     "make": "Dodge",
     "model": "Challenger R/T",
     "production_year": "1970",
@@ -272,7 +272,7 @@
     "photo": "37"
   },
   {
-    "manufracturer": "Prince Motor Company",
+    "manufacturer": "Prince Motor Company",
     "make": "Nissan",
     "model": "Skyline GT-R (KPGC10)",
     "production_year": "1971",
@@ -280,7 +280,7 @@
     "photo": "38"
   },
   {
-    "manufracturer": "Toyota",
+    "manufacturer": "Toyota",
     "make": "Toyota",
     "model": "Supra Turbo MK IV",
     "production_year": "1993",
@@ -288,7 +288,7 @@
     "photo": "39"
   },
   {
-    "manufracturer": "Mitsubishi Motors",
+    "manufacturer": "Mitsubishi Motors",
     "make": "Mitsubishi",
     "model": "Eclipse Spyder",
     "production_year": "2003",
