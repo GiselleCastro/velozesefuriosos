@@ -1,11 +1,13 @@
 import Carro from "../model/carro.model.js"
+import { resolve } from "path"
+import fs from "fs"
 
 export default class CarroController {
   static async insertCarro (req, res) {
-    const { manufracturer, make, model, production_year, status } = req.body
-    const photo = `${req.file.filename}.${req.file.originalname.split('.').at(-1)}`
-    try {
-      const novoCarro = await Carro.create ({
+    if (!req.file) req.body.photo = ""
+    const { manufracturer, make, model, production_year, status, photo } = req.body
+    if (Object.values(req.body).filter( valor => !valor).length) return res.json({mensagem: "Há campos vazios."})
+    return Carro.create ({
         manufracturer,
         make,
         model,
@@ -13,10 +15,11 @@ export default class CarroController {
         status,
         photo
       })
-      res.status(200).json(novoCarro)
-    } catch (error) {
-      res.status(400).json(error)
-    }
+      .then((novoCarro) => res.status(200).json(novoCarro))
+      .catch((error) => {
+      if(fs.existsSync(resolve("uploads", photo))) fs.unlinkSync(resolve("uploads", photo))
+      return res.status(400).json(error)
+    })
   }
 
   static async getCarro (req, res) {

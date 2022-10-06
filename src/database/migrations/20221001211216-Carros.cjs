@@ -11,7 +11,7 @@ module.exports = {
       },
       manufracturer: {
         type: Sequelize.STRING(50),
-        allowNull: false
+        allowNull: false,
       },
       make: {
         type: Sequelize.STRING(50),
@@ -24,10 +24,6 @@ module.exports = {
       production_year:{
         type: Sequelize.INTEGER,
         allowNull: true,
-        validate: {
-          min: 1800,
-          msg: 'Ano não válido'
-        }
       },
       status: {
         type: Sequelize.STRING(50),
