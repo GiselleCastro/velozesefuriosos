@@ -1,3 +1,4 @@
+JSON
 public
 node_modules
 .env
@@ -5,4 +6,3 @@ package-lock.json
 .eslintrc.cjs
 .sequelizerc
 .editorconfig
-JSON
