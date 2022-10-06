@@ -9,7 +9,7 @@ module.exports = {
         primaryKey: true,
         unique: true,
       },
-      manufracturer: {
+      manufacturer: {
         type: Sequelize.STRING(50),
         allowNull: false,
       },
