@@ -20,8 +20,6 @@
 
   > npm i
 
-  > npx sequelize-cli init
-
   > npx sequelize db:migrate
 
   > npm start
